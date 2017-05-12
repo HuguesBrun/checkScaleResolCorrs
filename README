@@ -1,0 +1,9 @@
+Produce the muon tree from the muon POG upples:
+root -l
+.L RoccoR.cc
+.L rochcor2015.cc
+.x checkCorrection.C
+
+Produce the scale/resolution distributions:
+cd scaleResolutionPlots/
+root -b -q -l doTheScalePlots.C
